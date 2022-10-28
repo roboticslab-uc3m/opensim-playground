@@ -42,11 +42,11 @@
 		<!--Motion (.mot) or storage (.sto) file containing the desired point trajectories.-->
 		<desired_points_file />
 		<!--Motion (.mot) or storage (.sto) file containing the desired kinematic trajectories.-->
-		<desired_kinematics_file>joint_elbow.mot</desired_kinematics_file>
+		<desired_kinematics_file>jointspace_trajectory.mot</desired_kinematics_file>
 		<!--File containing the tracking tasks. Which coordinates are tracked and with what weights are specified here.-->
-		<task_set_file>CMC_Tasks-ROBOESPAS_flex.xml</task_set_file>
+		<task_set_file>CMC_Tasks.xml</task_set_file>
 		<!--File containing the constraints on the controls.-->
-		<constraints_file>CMC_ControlConstraints_ROBOESPAS.xml</constraints_file>
+		<constraints_file>CMC_ControlConstraints.xml</constraints_file>
 		<!--File containing the controls output by RRA. These can be used to place constraints on the residuals during CMC.-->
 		<rra_controls_file />
 		<!--Low-pass cut-off frequency for filtering the desired kinematics. A negative value results in no filtering. The default value is -1.0, so no filtering.-->
